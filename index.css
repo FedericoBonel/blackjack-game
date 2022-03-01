@@ -1,0 +1,63 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background: green;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackjack__container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    background: darkolivegreen;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.blackjack__container-header {
+    font-size: 64px;
+    color: goldenrod;
+    margin: 2rem 0;
+}
+
+.blackjack__container h2 {
+    font-style: italic;
+    font-size: large;
+    margin: 0;
+}
+
+.blackjack__container p {
+    margin: 0.5rem;
+}
+
+.blackjack__container button {
+    margin: 0.5rem 0 0;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 4px;
+    background: goldenrod;
+    color: #016F32;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: large;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.blackjack__container button:hover {
+    background-color: gold;
+}
+.blackjack__container button:active {
+    background-color: yellow;
+}
+
+
